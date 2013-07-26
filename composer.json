@@ -1,0 +1,38 @@
+{
+	"name" : "mfcc/mandrill",
+	"description" : "Contact-Form using a honeypot for spam-protection and zendesk API for creating ticket",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Jan Tlapak",
+			"email" : "jan@mfcc.cz",
+			"homepage" : "http://www.mfcc.cz",
+			"role" : "Developer"
+		}
+	],
+	"keywords" : [
+		"contact",
+		"form",
+		"zendesk",
+		"spam",
+		"ticket"
+	],
+	"homepage" : "https://github.com/Tlapi/mfcc-mandrill",
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+		"php" : ">=5.3.0",
+		"zf-commons/zfc-base" : ">=0.0.1",
+		"mandrill/mandrill" : "dev-master",
+		"zendframework/zendframework" : ">=2.1,<=2.3.x-dev"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"MfccMandrill" : "src"
+		},
+		"classmap" : [
+			"./"
+		]
+	},
+	"minimum-stability" : "dev"
+}
