@@ -66,6 +66,9 @@ class MandrillService {
 
 		$this->mandrill = new Mandrill($mandrillApiKey);
 
+		// TODO add this as option ?
+		curl_setopt($this->mandrill->ch, CURLOPT_SSL_VERIFYPEER, false);
+
 		return $this;
 	}
 
