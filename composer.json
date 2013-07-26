@@ -10,11 +10,11 @@
 		}
 	],
 	"keywords" : [
-		"contact",
-		"form",
-		"zendesk",
-		"spam",
-		"ticket"
+		"email",
+		"mailing",
+		"service",
+		"zend",
+		"zf2"
 	],
 	"homepage" : "https://github.com/Tlapi/mfcc-mandrill",
 	"license" : [
